@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "Gulare",
+      "author": "Gulare",
+      "body": "salam",
+      "id": 15
+    },
+    {
+      "title": "wqeqwe",
+      "body": "qweqwe",
+      "author": "Kenan muellim",
+      "id": 16
+    },
+    {
+      "title": "werwer",
+      "body": "werwerwer",
+      "author": "Gulare",
+      "id": 18
+    },
+    {
+      "title": "werwer",
+      "body": "werwerwer",
+      "author": "Gulare",
+      "id": 19
+    },
+    {
+      "title": "werwer",
+      "body": "werwerwer",
+      "author": "Gulare",
+      "id": 20
+    }
+  ]
+}
