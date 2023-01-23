@@ -1,0 +1,38 @@
+.newcourse{
+    height: 100vh;
+    background-color: rgb(238, 211, 173);
+   padding-top: 100px;
+h1{
+    text-align: center;
+    color: rgb(133, 126, 126);
+    font-size: 50px;
+}
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    input{
+        width: 300px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        box-shadow: 5px 5px 5px #5665a0;
+        margin: 10px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        background-color: #ff9f67;
+        border: none;
+        color: white;
+        
+    }
+    button:hover{
+        opacity: 0.6;
+    }
+}

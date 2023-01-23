@@ -1,0 +1,33 @@
+.blue {
+//   width: 98.5vw;
+width: 100%;
+  img {
+    width: 98.5vw;
+      @media only screen and (max-width: 768px) {
+    width: 800px;
+
+  }
+  }
+  .words {
+    transform: translate(200px, 250px);
+    @media only screen and (max-width: 768px) {
+      transform: translate(100px, 150px);
+}
+    button {
+      height: 40px;
+      width: 150px;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      background-color: white;
+      margin-left: 80px;
+      border: none;
+      outline: none;
+    }
+    button:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}

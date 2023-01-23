@@ -1,0 +1,63 @@
+.word{
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+   
+}
+.cards{
+    width: 98.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+     width: 98.5vw;
+      @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+    
+    img{
+        width:350px;
+        @media only screen and (max-width: 768px) {
+           width:700px ;
+          }
+        &:hover{
+            transform: scale(1.1);
+            transition: 3s;
+        }
+    }
+}
+
+.promise{
+    margin-left: 200px;
+    .needhelp{
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+   .kartlar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+      @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+    .needhelp{
+    display: flex;
+    flex-direction: column;
+    }
+   }
+    img{
+        width: 80px;
+   
+    }
+    h1{
+        text-align: center;
+    }
+}

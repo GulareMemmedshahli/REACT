@@ -1,0 +1,52 @@
+.word{
+text-align: center;
+margin-top: 5%;
+}
+.card {
+  width: 98.5vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  row-gap: 50px;
+  column-gap: 30px;
+  @media only screen and (max-width: 768px) {
+    // row-gap: 10px;
+    // display: flex;
+  //  column-gap: 10px;
+  }
+  .dataword{
+    display: flex;
+    column-gap: 90px;
+  }
+a{
+  text-decoration: none;
+  color: black;
+}
+  // .dataword{
+  //   display: flex;
+  //   column-gap: 130px;
+  // }
+  img{
+    width: 350px;
+    height: 500px;
+  }
+ 
+}
+.shop{
+margin-left: 55%;
+    width:150px ;
+    height: 40px;
+    border-radius: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
+.databtn{
+  button:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+  }
+}

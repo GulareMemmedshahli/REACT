@@ -1,0 +1,29 @@
+.detailbtn{
+    background-color: white;
+    color: #5665a0;
+    border: 1px solid #5665a0;
+    border-radius: 5px;
+    padding: 20px 60px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #ff9f67;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.6s;   
+}
+.detailbtn:hover{
+    color: white;
+    border: none;
+    box-shadow: inset 0 100px 0 0 #ff9f67;
+}
+.details{
+    display: flex;
+    column-gap: 100px;
+    margin-top: 50px;
+    p{
+        color:#4054a3 ;
+    }
+}

@@ -1,0 +1,22 @@
+.top-to-btm{
+    position: relative;
+    z-index: 1;
+  }
+ .fa-arrow-turn-up{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+  }
+  .fa-arrow-turn-up{
+    background-color:#D96CFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .fa-arrow-turn-up:hover{
+    transform: scale(1.1);
+  }
+ 

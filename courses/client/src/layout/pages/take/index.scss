@@ -1,0 +1,20 @@
+.take {
+    margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .takeright {
+    p{
+        color: #4255a4;
+    }
+    h1 {
+      color: #4255a4;
+          font-family: "Josefin Sans",sans-serif;
+              font-size: 42px;
+    }
+    .takewords {
+      display: flex;
+      margin-top: 20px;
+    }
+  }
+}

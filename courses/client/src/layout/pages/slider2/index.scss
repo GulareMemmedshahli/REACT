@@ -1,0 +1,13 @@
+.slide2{
+    color: #4255A4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .datacard{
+        width: 150px;
+    }
+}

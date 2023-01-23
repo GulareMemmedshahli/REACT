@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    column-gap: 350px;
+    background:white;
+    width: 98.5vw;
+    height: 70px;
+    @media only screen and (max-width: 768px) {
+ width: 550px;
+ column-gap: 100px;
+    }
+.fa-bars{
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: block;
+   
+       }
+}
+
+   
+    .icons{
+      display: flex;
+      column-gap: 20px;
+      cursor: pointer;
+      @media only screen and (max-width: 768px) {
+        .fa-user,
+        .fa-star{
+          display: none;
+        }
+           }
+    }
+
+
+
+
+
+    .hisse2{
+        display: flex;
+         column-gap: 20px;
+
+    
+    a{
+      color: black;
+      font-weight: bold;
+
+      display: inline-block;
+      position: relative;
+      @media only screen and (max-width:768px){
+        display: none;
+      }
+   
+    }
+    a::after{
+      content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+    }
+    a:hover::after{
+      transform: scaleX(1);
+  transform-origin: bottom left;
+    }
+    }
+   
+}

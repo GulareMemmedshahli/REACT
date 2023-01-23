@@ -1,0 +1,27 @@
+.about{
+    height: 100vh;
+    padding-top: 70px;
+   .basliq{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img{
+        // margin-left: 250px;
+        // display: flex;
+        // column-gap: 200px;
+        // position: relative;
+      
+   
+    }
+    .word{
+        h3{
+            font-weight:900;
+            font-size: 36px;
+        }
+   
+    }
+    
+   }
+}
