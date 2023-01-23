@@ -1,0 +1,26 @@
+.legal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    height: 100vh;
+    .sag{
+        display: flex;
+        column-gap: 70px;
+        margin-bottom: 200px;
+        .sag1{
+            width: 300px;
+            .pler{
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+            }
+            .alt{
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+            }
+        }
+    }
+  
+}

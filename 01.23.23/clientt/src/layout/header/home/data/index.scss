@@ -1,0 +1,40 @@
+.umumi{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+        margin-top: 30px;
+        width: 200px;
+    }
+    .sortandsearch{
+        display: flex;
+
+        button{
+            margin-top: 30px;
+        }
+    }
+    .customer{
+        display: flex;
+      flex-wrap: wrap;
+justify-content: center;
+        margin-top: 50px;
+        column-gap: 50px;
+        .data{
+            display: flex;
+a{
+    text-decoration: none;
+    color: black;
+}
+       
+            flex-wrap: wrap;
+            width: 450px;
+            img{
+                width: 80px;
+                border-radius: 50%;
+            }
+           
+        }
+    }
+}

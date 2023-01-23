@@ -1,0 +1,20 @@
+.detail{
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    .detailyazi{
+        width: 200px;
+        button{
+            width: 100px;
+            height: 25px;
+            background-color: #FED48D;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover{
+            opacity: 0.7;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+        width: 300px;
+        height: 20px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 10px 5px 5px rgb(216, 160, 55);
+        outline: none;
+        
+    }
+}
