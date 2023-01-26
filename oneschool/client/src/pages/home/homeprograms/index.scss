@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  
+    .programspage{
+        margin-top: 50px;
+      
+        .educationprograms{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5vh;
+            column-gap: 10vh;
+            @media only screen and (max-width: 987px){
+            flex-direction: column;
+            }
+            img{
+                width: 500px;
+            }
+            .educationprogramstext{
+              display: flex;
+              flex-direction: column;
+              row-gap: 20px;
+             .educationicon{
+                display: flex;
+                .icon{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background-color: #7971EA;
+                    text-align: center;
+                    color: white;
+                }
+             }   
+            }
+        }
+
+        .pragramstrive{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          margin-top: 10vh;
+          column-gap: 10vh;
+          @media only screen and (max-width: 987px){
+            flex-direction: column;
+            }
+            img{
+                width: 500px;
+            }
+            .striveicon{
+                display: flex;
+                .icon{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background-color: #7971EA;
+                    text-align: center;
+                    color: white;
+                }
+            }
+            .pragramstrivetext{
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+            }
+        }
+
+    }
+
+}

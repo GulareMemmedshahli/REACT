@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // p{
+    //     margin-top: 20px;
+    // }
+ input{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #5A50E5 ;
+ }
+ .sorts{
+    margin-top: 20px;
+    display: flex;
+    @media only screen and (max-width: 987px){
+        flex-direction: column;
+           }
+    button{
+        width: 100px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: #5A50E5;
+        border: none;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+ }
+    .teacherdata{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10vh;
+        @media only screen and (max-width: 987px){
+            flex-wrap: wrap;
+            }
+        img{
+            width: 80px;
+            border-radius: 50%;
+        }
+        a{
+            color: black;
+        }
+        .teachercard{
+            width: 250px;
+            display: flex;
+          row-gap: 10px;
+         margin-top: 10vh;
+            flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        }
+    }
+}
+

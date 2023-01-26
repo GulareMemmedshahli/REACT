@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    color: black;
+    height: 10vh;
+    width: 100%;
+
+    .iconbars{
+        display: none;
+        @media only screen and (max-width: 987px){
+           display: block;
+             }
+    }
+    a{
+        text-decoration: none;
+        margin: 20px;
+        color: black;
+        &.active{
+        text-decoration: underline;
+        text-decoration-color: #5A50E5;
+        }
+        @media only screen and (max-width: 987px){
+            display: none;
+              }
+              
+    }
+    .scholl{
+        @media only screen and (max-width: 987px){
+            display: block;
+              }
+      }
+    a:hover{
+        color: #5A50E5;
+    }
+    button{
+        width: 100px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: #5A50E5;
+        border: none;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+        @media only screen and (max-width: 987px){
+            display: none;
+              }
+    }
+   
+
+}

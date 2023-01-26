@@ -1,0 +1,26 @@
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    height: 60vh;
+  
+    .detailstext{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       margin-left: 50px;
+   
+    }
+    button{
+        width: 100px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: #5A50E5;
+        border: none;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
